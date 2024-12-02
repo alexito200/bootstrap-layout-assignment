@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.hero-header {
+    background-image: url('/media/vegetables.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.intro-text {
+    position: relative;
+    z-index: 1;
+}
+
+.sidebar {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.food-grid {
+    margin-top: 100px;
+}
