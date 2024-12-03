@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,12 @@
     <div class="container container1">
         <nav class="navbar">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                Tech Solutions
-            </a>
+                <a class="navbar-brand" href="#">
+                    Tech Solutions
+                </a>
+                <a class="navbar-brand" href="art.html">
+                    Art Gallery
+                </a>
             </div>
         </nav>
         <div class="container text-center position-relative top-0 start-0">
@@ -25,34 +28,65 @@
                 <div>
                     <i class="bi bi-pc-display fs-1"></i>
                 </div>
-                <h1 class="mb-2">Desktop Repair</h1>
-                <p class="text-center">Your go-to desktop repair service offering expert solutions for hardware and software issues. Fast turnaround, affordable pricing, and exceptional customer care ensure your computer is back up and running in no time. Trust us for reliability and quality!</p>
+                <h1 class="mb-2 h2 text-center">Desktop Repair</h1>
+                <p class="text-center lead">Your go-to desktop repair service offering expert solutions for hardware and software issues. Fast turnaround, affordable pricing, and exceptional customer care ensure your computer is back up and running in no time. Trust us for reliability and quality!</p>
             </div>
             <div class="col border border-primary">
                 <div>
                     <i class="bi bi-phone-fill fs-1"></i>
                 </div>
-                <h1 class="mb-2">Phone Repair</h1>
-                <p class="text-break">Your go-to phone repair service, offering fast, reliable, and affordable solutions for all your smartphone troubles. From screen replacements to battery fixes, our certified technicians ensure your device is as good as new in no time. With same-day repairs and top-notch customer service, we’ll have you connected again, hassle-free!</p>
+                <h1 class="mb-2 h2 text-center">Phone Repair</h1>
+                <p class="text-break lead">Your go-to phone repair service, offering fast, reliable, and affordable solutions for all your smartphone troubles. From screen replacements to battery fixes, our certified technicians ensure your device is as good as new in no time. With same-day repairs and top-notch customer service, we’ll have you connected again, hassle-free!</p>
             </div>
             <div class="col border border-primary">
                 <div>
                     <i class="bi bi-pc fs-1"></i>
                 </div>
-                <h1 class="mb-2">PC Repair</h1>
-                <p class="text-break">Experience top-notch tablet repair service with quick turnaround times, skilled technicians, and affordable pricing. Whether it's a cracked screen, battery issue, or software glitch, we bring your tablet back to life with precision and care. Satisfaction guaranteed!</p>
+                <h1 class="mb-2 h2 text-center">PC Repair</h1>
+                <p class="text-break lead">Experience top-notch tablet repair service with quick turnaround times, skilled technicians, and affordable pricing. Whether it's a cracked screen, battery issue, or software glitch, we bring your tablet back to life with precision and care. Satisfaction guaranteed!</p>
             </div>
             </div>
         </div>
+
+        <table class="table table-striped table-dark mt-5 mb-5">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+
         <form class="position-static mt-5">
-            
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Service</button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Desktop Repair</a></li>
-                    <li><a class="dropdown-item" href="#">Phone Repair</a></li>
-                    <li><a class="dropdown-item" href="#">PC Repair</a></li>
+                    <li><a class="dropdown-item text-primary" href="#">Desktop Repair</a></li>
+                    <li><a class="dropdown-item text-success" href="#">Phone Repair</a></li>
+                    <li><a class="dropdown-item text-info" href="#">PC Repair</a></li>
                 </ul>
             </div>
 
