@@ -12,39 +12,71 @@
 </head>
 <body>
     <div class="container container1">
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    Tech Solutions
-                </a>
-                <a class="navbar-brand" href="art.html">
-                    Art Gallery
-                </a>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
             </div>
         </nav>
-        <div class="container text-center position-relative top-0 start-0">
-            <div class="row column-gap-3 container2 gap-3">
-            <div class="col border border-primary">
-                <div>
-                    <i class="bi bi-pc-display fs-1"></i>
+        <div class="container mt-5 text-center position-relative top-0 start-0">
+            <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/media/desktop.jpg" class="card-img-top" alt="#">
+                            <h5 class="card-title h2">Desktop Repair</h5>
+                            <p class="card-text lead">Your go-to desktop repair service offering expert solutions for hardware and  software issues. Fast turnaround, affordable pricing, and exceptional customer care ensure your computer   is back up and  running in no time. Trust us for reliability and quality!</p>
+                        </div>
+                    </div>
                 </div>
-                <h1 class="mb-2 h2 text-center">Desktop Repair</h1>
-                <p class="text-center lead">Your go-to desktop repair service offering expert solutions for hardware and software issues. Fast turnaround, affordable pricing, and exceptional customer care ensure your computer is back up and running in no time. Trust us for reliability and quality!</p>
-            </div>
-            <div class="col border border-primary">
-                <div>
-                    <i class="bi bi-phone-fill fs-1"></i>
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/media/phone.jpg" class="card-img-top" alt="#">
+                            <h5 class="card-title h2">Phone Repair</h5>
+                            <p class="card-text lead">Your go-to phone repair service, offering fast, reliable, and affordable solutions for all your smartphone troubles. From screen replacements to battery fixes, our certified technicians ensure  your device is as good as new in no time. With same-day repairs and top-notch customer service, we’ll have you connected again, hassle-free!</p>
+                        </div>
+                    </div>
                 </div>
-                <h1 class="mb-2 h2 text-center">Phone Repair</h1>
-                <p class="text-break lead">Your go-to phone repair service, offering fast, reliable, and affordable solutions for all your smartphone troubles. From screen replacements to battery fixes, our certified technicians ensure your device is as good as new in no time. With same-day repairs and top-notch customer service, we’ll have you connected again, hassle-free!</p>
-            </div>
-            <div class="col border border-primary">
-                <div>
-                    <i class="bi bi-pc fs-1"></i>
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/media/pc.jpg" class="card-img-top" alt="#">
+                            <h5 class="card-title h2">PC Repair</h5>
+                            <p class="card-text lead">Experience top-notch tablet repair service with quick turnaround times, skilled technicians, and affordable pricing. Whether it's a cracked screen, battery issue, or software glitch, we bring your tablet back to life with precision and care. Satisfaction guaranteed!</p>
+                        </div>
+                    </div>
                 </div>
-                <h1 class="mb-2 h2 text-center">PC Repair</h1>
-                <p class="text-break lead">Experience top-notch tablet repair service with quick turnaround times, skilled technicians, and affordable pricing. Whether it's a cracked screen, battery issue, or software glitch, we bring your tablet back to life with precision and care. Satisfaction guaranteed!</p>
-            </div>
             </div>
         </div>
 
